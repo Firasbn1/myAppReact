@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.bttn {
+  margin: 7px;
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: system-ui;
+  text-transform: uppercase;
+}
+.bttn:hover {
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
